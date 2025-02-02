@@ -3,9 +3,9 @@ export const APP_ID = `${process.env.NEXT_PUBLIC_APP_ID}`
 export const API_KEY = `${process.env.NEXT_PUBLIC_APP_KEY}`
 export const API_URL = `${process.env.NEXT_PUBLIC_API_URL}`
 export const APP_INFO: AppInfo = {
-  title: 'Chat APP',
-  description: '',
-  copyright: '',
+  title: 'DeepSeek ChatBot APP',
+  description: '基于DeepSeek-R1:70B搭建的聊天机器人',
+  copyright: 'Tong E Tech',
   privacy_policy: '',
   default_language: 'en',
 }
