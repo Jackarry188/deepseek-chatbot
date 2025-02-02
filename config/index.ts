@@ -8,6 +8,7 @@ export const APP_INFO: AppInfo = {
   copyright: 'Tong E Tech',
   privacy_policy: '',
   default_language: 'cn',
+  default_language: 'zh-Hans',
 }
 
 export const isShowPrompt = false
