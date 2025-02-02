@@ -51,7 +51,7 @@ const Main: FC<IMainProps> = () => {
 
   useEffect(() => {
     if (APP_INFO?.title)
-      document.title = `${APP_INFO.title} - Powered by Tong E Tech`
+      document.title = `${APP_INFO.title} - ${process.env.NEXT_PUBLIC_APP_ID} - Tong E Tech`
   }, [APP_INFO?.title])
 
   // onData change thought (the produce obj). https://github.com/immerjs/immer/issues/576
