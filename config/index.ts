@@ -7,7 +7,6 @@ export const APP_INFO: AppInfo = {
   description: '基于DeepSeek-R1:70B搭建的聊天机器人',
   copyright: 'Tong E Tech',
   privacy_policy: '',
-  default_language: 'cn',
   default_language: 'zh-Hans',
 }
 
